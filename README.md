@@ -6,7 +6,9 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)  
 ![Contributions](https://img.shields.io/badge/contributions-welcome-orange.svg)  
 
----
+<p align="center">
+  <img src="img/Gif-human-sandbox.gif" alt="logo">
+</p>
 
 ## 📝 Project Description  
 🧑‍🌾This project is a **sandbox village life simulator** built with Pygame.  
