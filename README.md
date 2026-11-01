@@ -21,21 +21,6 @@ The simulation includes visual feedback with particles❤️, trees🌳, and iso
 
 ---
 
-## ⚙️ Features
-  👣 Villagers that **move randomly** and interact with the environment  
-
-  🥕 Carrots spawn on the map and are collected as food  
-
-  🍼 Reproduction: villagers can create babies that grow into adults after eating  
-
-  🌳 Trees and static obstacles rendered with an isometric-like depth system  
-
-  ✨ Particle effects when villagers reproduce  
-
-  🎨 Fallback graphics (rectangles) if image files are missing  
-
----
-
 ## 🎮 Example Screenshots  
 Here’s a preview of the simulation:  
 
@@ -43,23 +28,9 @@ Here’s a preview of the simulation:
 
 ---
 
-## ⚙️ How it works  
-  🧑‍🤝‍🧑 Each villager is an independent entity with position, inventory, and state (adult or baby).  
+## 🗺️ How it works
 
-  🥕 Carrots spawn randomly across the map. Villagers pick them up when colliding.  
-
-  🍼 Babies consume carrots to grow into adults.  
-
-  💞 When two villagers meet, they can create a new baby villager.  
-
-  ✨ Visual particles show reproduction events.  
-
-  🌳 Trees and water tiles are obstacles placed directly from the map file.  
-
----
-
-## 🗺️ Schema  
-💡 The simulation works on a **grid-based map** defined by a simple text file (`map.txt`):  
+The simulation works on a **grid-based map** defined by a simple text file (`map.txt`):  
 
 - `#` → solid block  
 - `~` → water  
